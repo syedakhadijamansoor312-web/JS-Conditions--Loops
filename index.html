@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Conditions, Loops</title>
+</head>
+<body>
+    <h1>JS Conditions,Loops:</h1>
+    <p>You can view the result. Rightclick on the page, click inspect,then click on console to see the result.</p>
+    <script>
+        alert("I am running")
+    </script>
+    <script>
+        // variable
+    let obtMarks =977
+    let totalMarks =1100
+    let percentage =obtMarks*100/totalMarks
+     console.log(percentage)
+     //Conditional Statement
+    if(percentage > 50)
+    {
+    console.log("yes you have passed")
+    }
+    else
+    {
+        console.log("you have failed")
+    }
+    if(percentage>90)
+    {
+        console.log("Grade A")
+    }
+    else if(percentage>80)
+    {
+        console.log("Grade B")
+    }
+    else if (percentage>70)
+    {
+        console.log("Grade C")
+    }
+    else if(percentage>60)
+    {
+        console.log("Grade D")
+    }
+    else if(percentage>50)
+    {
+        console.log("Grade E")
+    }
+    else
+    {
+        console.log("Grade F")
+    }
+    // Nested if
+    let myName ="Syeda Khadija"
+    let myPhone = "OPPO"
+    if(myName == "Syeda Khadija")
+    {
+        if(myPhone=="OPPO")
+    {
+        console.log("you are OPPO user")
+    }
+    }
+ let myage =30;
+ let myFriendAge="30"; //camel case
+ //pascal case=MyFriendName;=>Used in python
+ //snake case=my_friend_name;
+ // == value => Match
+ //=== value + Data type => Match
+ if(myage==myFriendAge)
+ {
+    console.log("you and your friend age are of same.")
+ } 
+ // For Loop(fixed)
+ for(let i=0;i<=5;i++)
+ {
+    console.log("AoA");
+    console.log(i);
+ }
+ </script>
+</body>
+</html>
